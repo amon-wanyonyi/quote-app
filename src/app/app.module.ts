@@ -8,6 +8,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { QuoteComponent } from './component/quote/quote.component';
 import { QuoteFormComponent } from './component/quote-form/quote-form.component';
 import { VoteComponent } from './component/vote/vote.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { VoteComponent } from './component/vote/vote.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
